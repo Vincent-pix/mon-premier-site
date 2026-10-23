@@ -156,19 +156,19 @@ Pour un formulaire de connexion, je choisirais POST afin de ne pas afficher le m
 
 1. Citez trois informations que le serveur connaît sur vous, sans que vous ayez rien rempli.
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Le serveur peut connaître mon adresse IP apparente, les informations sur mon navigateur grâce à l'en-tête User-Agent et mes langues préférées grâce à Accept-Language.
 
 2. À quoi peut servir l'en-tête `Accept-Language` pour un site comme Wikipédia ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ L'en-tête Accept-Language permet à un site comme Wikipédia de connaître les préférences linguistiques du navigateur.
 
 3. Dans l'Access log, retrouvez une requête qui a reçu un code `404`. Quelle page était demandée ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ J'ai retrouvé une requête GET vers /blabla.
 
 4. Après cet exercice, que pensez-vous de la notion de « navigation anonyme » ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ La navigation privée ne rend pas complètement anonyme. Elle limite surtout la conservation locale de certaines données, comme l'historique et les cookies après la session.Les sites visités peuvent toujours recevoir des informations comme l'adresse IP apparente, le navigateur utilisé et les langues préférées.
 
 ---
 
