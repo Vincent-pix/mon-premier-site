@@ -43,15 +43,15 @@
 
 1. Quelle est la différence entre ce que le serveur **envoie** et ce que le navigateur **affiche** ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Le serveur envoie du code HTML sous forme de texte. Le navigateur interprète les balises HTML et affiche une page structurée.
 
 2. À quoi servent les balises `<h1>`, `<p>`, `<ul>` et `<li>` ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ <h1> : Définit un titre principal, <p> : Définit un paragraphe, <ul> : Crée une liste à puces, <li> : Définit un élément de liste
 
 3. Pourquoi l'image s'affiche-t-elle alors qu'elle n'est pas sur votre serveur ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ L'image s'affiche parce que la balise <img> contient une URL externe.
 
 ---
 
@@ -59,11 +59,11 @@
 
 1. Pourquoi est-ce une bonne idée de séparer le code Python et le HTML ? (Pensez à une équipe avec un développeur et un graphiste.)
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Oui, comme ça le développeur peut modifier le fonctionnement du site dans le code Python, et le graphiste peut travailler sur l'apparence des pages HTML sans toucher à la logique de l'application.
 
 2. Les `{{ prenom }}` sont-ils remplacés par le serveur ou par le navigateur ? Comment l'avez-vous vérifié ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Les variables sont remplacées par le serveur. On peut le vérifier avec Ctrl + U
 
 ---
 
