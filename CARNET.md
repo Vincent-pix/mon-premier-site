@@ -27,15 +27,15 @@
 
 1. Dans l'URL `https://www.google.com/maps`, quel est le nom de domaine ? Quel est le chemin ?
 
-   > _Ma réponse :_  
+   > _Ma réponse :_  le nom de domaine est www.google.com, le chemin est /maps
 
 2. Que veut dire le message *Not Found* ? Qui l'a envoyé : votre navigateur ou le serveur ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ C'est le serveur, ça veut dire qu'il n'a pas trouvé la page demandé.
 
 3. Que se passe-t-il si deux fonctions portent le même nom dans `flask_app.py` ? (Indice : essayez, puis lisez l'Error log.)
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Flask génère une erreur AssertionError
 
 ---
 
