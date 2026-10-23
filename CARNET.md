@@ -71,15 +71,15 @@
 
 1. Quelle est la différence de rôle entre le HTML et le CSS ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Le HTML sert à organiser le contenu d'une page Web. Le CSS sert à personnaliser son apparence.
 
 2. Pour afficher votre page `/presentation`, combien de fichiers le navigateur doit-il télécharger ? (Vous pourrez le vérifier à l'exercice suivant !)
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Le document HTML généré par Flask, le fichier CSS style.css et l'image du logo Python.
 
 3. Pourquoi faut-il parfois faire **Ctrl + F5** pour voir les changements de CSS ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Le navigateur conserve parfois une ancienne version du fichier CSS dans son cache pour accélérer le chargement des pages.
 
 ---
 
@@ -87,19 +87,19 @@
 
 1. Que signifie HTTP ? Qui envoie la **requête** et qui envoie la **réponse** ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ HTTP signifie HyperText Transfer Protocol, c'est le serveur qui envoie la réponse.
 
 2. Combien de requêtes votre page `/presentation` a-t-elle déclenchées ? Lesquelles ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ j'ai relevé 9 entrées réseau. le document HTML presentation et l'image Python-logo-notext.svg, tous deux avec un code HTTP 200. Plusieurs autres ressources JavaScript apparaissent également.
 
 3. Que signifie le code `200` ? Et le code `404` de la favicon ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Le code HTTP 200 OK signifie que la requête a réusi.
 
 4. Pourquoi les modifications faites dans l'onglet Éléments ne sont-elles pas visibles par les autres visiteurs ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Parce que les modifications effectuées dans l'onglet Éléments sont uniquement locales, dans notre navigateur.
 
 ---
 
@@ -107,15 +107,15 @@
 
 1. Dans l'URL `https://www.youtube.com/results?search_query=chat`, quel est le nom du paramètre ? Quelle est sa valeur ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ le paramètre s'appelle search_query et sa valeur est chat
 
 2. Pourquoi le serveur plante-t-il avec `a=bonjour` ? Que faudrait-il faire pour l'éviter ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ la fonction int() ne peut pas convertir le texte "bonjour" en nombre entier. Pour éviter cela, il faut vérifier les données envoyées par l'utilisateur.
 
 3. Pourquoi est-il dangereux d'afficher **tel quel** ce que l'utilisateur envoie ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Afficher directement du contenu fourni par l'utilisateur peut permettre d'injecter du code HTML ou JavaScript malveillant dans la page.
 
 ---
 
