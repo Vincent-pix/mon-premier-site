@@ -140,15 +140,15 @@ Pour un formulaire de connexion, je choisirais POST afin de ne pas afficher le m
 
 1. Quelle est la différence entre une erreur `4xx` et une erreur `5xx` ? Qui est « fautif » dans chaque cas ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Les erreurs 4xx indiquent un problème lié à la requête du client, et les erreurs 5xx indiquent que le serveur n'a pas réussi à traiter une requête
 
 2. Comment fonctionne une redirection ? Qui fait la deuxième requête : le serveur ou le navigateur ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Lorsqu'un serveur renvoie un code de redirection comme 302, il indique au navigateur une nouvelle adresse grâce à l'en-tête Location. C'est ensuite le navigateur qui envoie une deuxième requête vers cette adresse.
 
 3. Donnez un exemple de situation où un vrai site utilise une redirection.
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Un site peut utiliser une redirection après la connexion d'un utilisateur. Une fois authentifié, le navigateur est redirigé de la page de connexion vers son espace personnel.
 
 ---
 
