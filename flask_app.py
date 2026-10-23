@@ -29,7 +29,9 @@ def accueil():
 def presentation():
     return render_template("presentation.html", prenom="Vincent", nom="Brochard")
 
-return render_template("presentation.html", prenom="Vincent", nom="Brochard",
+@app.get("/loisirs")
+def loisirs():
+    return render_template("presentation.html", prenom="Vincent", nom="Brochard",
                        loisirs=["Jeux vidéo", "Dessin", "Crochet"])
 
 # ---------------------------------------------------------------
